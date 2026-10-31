@@ -1,0 +1,44 @@
+# API keys and environment variables
+.env
+.env.*
+!.env.example
+
+# AI provider credentials
+credentials.json
+token.json
+secrets.json
+service-account*.json
+
+# OAuth credentials
+client_secret*.json
+oauth*.json
+
+# Database
+users.sqlite3
+users.sqlite3-*
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Vector databases
+chroma_db/
+vectorstore/
+faiss_index/
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# Cache
+.cache/
+.DS_Store
